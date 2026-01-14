@@ -282,3 +282,18 @@
 [NX v20.8.4 Daemon Server] - 2026-01-14T17:54:08.661Z - Time taken for 'total execution time for createProjectGraph()' 12.925999999977648ms
 [NX v20.8.4 Daemon Server] - 2026-01-14T17:54:15.074Z - [SYNC]: running scheduled generator @nx/js:typescript-sync
 [NX v20.8.4 Daemon Server] - 2026-01-14T17:54:15.076Z - [SYNC]: @nx/js:typescript-sync error: Missing root "tsconfig.json"
+[NX v20.8.4 Daemon Server] - 2026-01-14T17:55:58.827Z - [WATCHER]: 1 file(s) created or restored, 0 file(s) modified, 1 file(s) deleted
+[NX v20.8.4 Daemon Server] - 2026-01-14T17:55:58.828Z - [WATCHER]: Processing file changes in outputs
+[NX v20.8.4 Daemon Server] - 2026-01-14T17:55:58.937Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX v20.8.4 Daemon Server] - 2026-01-14T17:55:58.937Z - [REQUEST]: nx.json
+[NX v20.8.4 Daemon Server] - 2026-01-14T17:55:58.937Z - [REQUEST]: nx.json.tmp.16580.1768413358772
+[NX v20.8.4 Daemon Server] - 2026-01-14T17:55:58.940Z - Time taken for 'hash changed files from watcher' 0.18630000005941838ms
+[NX v20.8.4 Daemon Server] - 2026-01-14T17:55:58.953Z - Time taken for 'build-project-configs' 10.452799999970011ms
+[NX v20.8.4 Daemon Server] - 2026-01-14T17:55:58.954Z - Time taken for '@nx/js/typescript:createDependencies' 4.181800000020303ms
+[NX v20.8.4 Daemon Server] - 2026-01-14T17:55:58.973Z - [SYNC]: collect registered sync generators
+[NX v20.8.4 Daemon Server] - 2026-01-14T17:55:58.974Z - [SYNC]: project graph hash is the same, not collecting task sync generators
+[NX v20.8.4 Daemon Server] - 2026-01-14T17:55:58.974Z - [SYNC]: nx.json hash is the same, not collecting global sync generators
+[NX v20.8.4 Daemon Server] - 2026-01-14T17:55:58.974Z - [SYNC]: scheduling: ["@nx/js:typescript-sync"]
+[NX v20.8.4 Daemon Server] - 2026-01-14T17:55:58.974Z - Time taken for 'total execution time for createProjectGraph()' 17.021199999959208ms
+[NX v20.8.4 Daemon Server] - 2026-01-14T17:56:05.378Z - [SYNC]: running scheduled generator @nx/js:typescript-sync
+[NX v20.8.4 Daemon Server] - 2026-01-14T17:56:05.380Z - [SYNC]: @nx/js:typescript-sync error: Missing root "tsconfig.json"
