@@ -1,6 +1,11 @@
 name: Prepare Release
 
 on:
+  push:
+    branches:
+      - main
+    paths:
+      - '.nx/version-plans/**'
   workflow_dispatch:
     inputs:
       preid:
@@ -65,7 +70,7 @@ jobs:
           exit 0
 
       - name: Dry run (preview changes)
-        if: inputs.dry_run == true && steps.check-plans.outputs.has_plans == 'true'
+        if: github.event_name == 'workflow_dispatch' && inputs.dry_run == true && steps.check-plans.outputs.has_plans == 'true'
         run: |
           PREID_ARG=""
           if [ -n "${{ inputs.preid }}" ]; then
@@ -74,7 +79,7 @@ jobs:
           npx nx release version $PREID_ARG --dry-run
 
       - name: Create Release PR
-        if: inputs.dry_run == false && steps.check-plans.outputs.has_plans == 'true'
+        if: (github.event_name == 'push' || inputs.dry_run == false) && steps.check-plans.outputs.has_plans == 'true'
         run: |
           BRANCH_NAME="release/version-plans-$(date +%Y%m%d-%H%M%S)"
           git checkout -b $BRANCH_NAME
