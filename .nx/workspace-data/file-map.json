@@ -21,28 +21,12 @@
   "fileMap": {
     "nonProjectFiles": [
       {
-        "file": ".github/workflows/release.yaml",
-        "hash": "8210779553054189207"
-      },
-      {
-        "file": ".yarnrc.yml",
-        "hash": "2886304410880062839"
-      },
-      {
-        "file": ".github/workflows/ci.yaml",
-        "hash": "2764094993101259470"
-      },
-      {
         "file": "nx.json",
-        "hash": "9638002774388664469"
+        "hash": "6855063941934762025"
       },
       {
-        "file": ".yarn/install-state.gz",
-        "hash": "3131534999808832374"
-      },
-      {
-        "file": ".github/workflows/release-publish.yaml",
-        "hash": "6640360331687016680"
+        "file": ".gitignore",
+        "hash": "8076772259331523985"
       },
       {
         "file": "README.md",
@@ -53,16 +37,12 @@
         "hash": "2853316500885690478"
       },
       {
+        "file": ".github/workflows/release-publish.yaml",
+        "hash": "6640360331687016680"
+      },
+      {
         "file": ".npmrc",
         "hash": "3244421341483603138"
-      },
-      {
-        "file": "package.json",
-        "hash": "17793493831625804722"
-      },
-      {
-        "file": ".gitignore",
-        "hash": "8076772259331523985"
       },
       {
         "file": "yarn.lock",
@@ -71,6 +51,26 @@
       {
         "file": "turbo.json",
         "hash": "16402890210527540759"
+      },
+      {
+        "file": ".github/workflows/release.yaml",
+        "hash": "8210779553054189207"
+      },
+      {
+        "file": ".github/workflows/ci.yaml",
+        "hash": "2764094993101259470"
+      },
+      {
+        "file": "package.json",
+        "hash": "17793493831625804722"
+      },
+      {
+        "file": ".yarn/install-state.gz",
+        "hash": "3131534999808832374"
+      },
+      {
+        "file": ".yarnrc.yml",
+        "hash": "2886304410880062839"
       }
     ],
     "projectFileMap": {

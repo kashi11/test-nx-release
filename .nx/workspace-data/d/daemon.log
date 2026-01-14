@@ -252,3 +252,33 @@
 [NX v20.8.4 Daemon Server] - 2026-01-14T17:52:26.298Z - Time taken for 'total execution time for createProjectGraph()' 12.60640000004787ms
 [NX v20.8.4 Daemon Server] - 2026-01-14T17:52:29.503Z - [SYNC]: running scheduled generator @nx/js:typescript-sync
 [NX v20.8.4 Daemon Server] - 2026-01-14T17:52:29.507Z - [SYNC]: @nx/js:typescript-sync error: Missing root "tsconfig.json"
+[NX v20.8.4 Daemon Server] - 2026-01-14T17:53:35.737Z - [WATCHER]: Processing file changes in outputs
+[NX v20.8.4 Daemon Server] - 2026-01-14T17:53:35.738Z - [WATCHER]: 1 file(s) created or restored, 0 file(s) modified, 1 file(s) deleted
+[NX v20.8.4 Daemon Server] - 2026-01-14T17:53:35.849Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX v20.8.4 Daemon Server] - 2026-01-14T17:53:35.849Z - [REQUEST]: .github/workflows/release.yaml
+[NX v20.8.4 Daemon Server] - 2026-01-14T17:53:35.849Z - [REQUEST]: .github/workflows/release.yaml.tmp.16580.1768413215678
+[NX v20.8.4 Daemon Server] - 2026-01-14T17:53:35.851Z - Time taken for 'hash changed files from watcher' 0.2867000000551343ms
+[NX v20.8.4 Daemon Server] - 2026-01-14T17:53:35.863Z - Time taken for 'build-project-configs' 9.527400000020862ms
+[NX v20.8.4 Daemon Server] - 2026-01-14T17:53:35.865Z - Time taken for '@nx/js/typescript:createDependencies' 3.395200000028126ms
+[NX v20.8.4 Daemon Server] - 2026-01-14T17:53:35.878Z - [SYNC]: collect registered sync generators
+[NX v20.8.4 Daemon Server] - 2026-01-14T17:53:35.879Z - [SYNC]: project graph hash is the same, not collecting task sync generators
+[NX v20.8.4 Daemon Server] - 2026-01-14T17:53:35.879Z - [SYNC]: nx.json hash is the same, not collecting global sync generators
+[NX v20.8.4 Daemon Server] - 2026-01-14T17:53:35.879Z - [SYNC]: scheduling: ["@nx/js:typescript-sync"]
+[NX v20.8.4 Daemon Server] - 2026-01-14T17:53:35.879Z - Time taken for 'total execution time for createProjectGraph()' 11.718299999949522ms
+[NX v20.8.4 Daemon Server] - 2026-01-14T17:53:42.292Z - [SYNC]: running scheduled generator @nx/js:typescript-sync
+[NX v20.8.4 Daemon Server] - 2026-01-14T17:53:42.294Z - [SYNC]: @nx/js:typescript-sync error: Missing root "tsconfig.json"
+[NX v20.8.4 Daemon Server] - 2026-01-14T17:54:08.514Z - [WATCHER]: Processing file changes in outputs
+[NX v20.8.4 Daemon Server] - 2026-01-14T17:54:08.515Z - [WATCHER]: 1 file(s) created or restored, 0 file(s) modified, 1 file(s) deleted
+[NX v20.8.4 Daemon Server] - 2026-01-14T17:54:08.626Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX v20.8.4 Daemon Server] - 2026-01-14T17:54:08.627Z - [REQUEST]: .github/workflows/release.yaml
+[NX v20.8.4 Daemon Server] - 2026-01-14T17:54:08.627Z - [REQUEST]: .github/workflows/release.yaml.tmp.16580.1768413248458
+[NX v20.8.4 Daemon Server] - 2026-01-14T17:54:08.630Z - Time taken for 'hash changed files from watcher' 0.2068000000435859ms
+[NX v20.8.4 Daemon Server] - 2026-01-14T17:54:08.644Z - Time taken for 'build-project-configs' 11.001500000013039ms
+[NX v20.8.4 Daemon Server] - 2026-01-14T17:54:08.644Z - Time taken for '@nx/js/typescript:createDependencies' 2.755600000033155ms
+[NX v20.8.4 Daemon Server] - 2026-01-14T17:54:08.660Z - [SYNC]: collect registered sync generators
+[NX v20.8.4 Daemon Server] - 2026-01-14T17:54:08.660Z - [SYNC]: project graph hash is the same, not collecting task sync generators
+[NX v20.8.4 Daemon Server] - 2026-01-14T17:54:08.660Z - [SYNC]: nx.json hash is the same, not collecting global sync generators
+[NX v20.8.4 Daemon Server] - 2026-01-14T17:54:08.660Z - [SYNC]: scheduling: ["@nx/js:typescript-sync"]
+[NX v20.8.4 Daemon Server] - 2026-01-14T17:54:08.661Z - Time taken for 'total execution time for createProjectGraph()' 12.925999999977648ms
+[NX v20.8.4 Daemon Server] - 2026-01-14T17:54:15.074Z - [SYNC]: running scheduled generator @nx/js:typescript-sync
+[NX v20.8.4 Daemon Server] - 2026-01-14T17:54:15.076Z - [SYNC]: @nx/js:typescript-sync error: Missing root "tsconfig.json"
