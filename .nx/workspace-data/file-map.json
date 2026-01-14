@@ -29,6 +29,10 @@
         "hash": "3131534999808832374"
       },
       {
+        "file": "package.json",
+        "hash": "17793493831625804722"
+      },
+      {
         "file": ".yarnrc.yml",
         "hash": "2886304410880062839"
       },
@@ -37,40 +41,36 @@
         "hash": "602718546537743385"
       },
       {
-        "file": ".gitignore",
-        "hash": "8076772259331523985"
-      },
-      {
-        "file": "package.json",
-        "hash": "17793493831625804722"
-      },
-      {
         "file": "nx.json",
-        "hash": "6855063941934762025"
-      },
-      {
-        "file": ".nx/version-plans/version-plan-1768412151953.md",
-        "hash": "2853316500885690478"
-      },
-      {
-        "file": "yarn.lock",
-        "hash": "605800910258890355"
-      },
-      {
-        "file": "turbo.json",
-        "hash": "16402890210527540759"
+        "hash": "6394297478766511390"
       },
       {
         "file": ".github/workflows/release.yaml",
         "hash": "17260329473418544146"
       },
       {
+        "file": "yarn.lock",
+        "hash": "605800910258890355"
+      },
+      {
+        "file": ".gitignore",
+        "hash": "8076772259331523985"
+      },
+      {
         "file": ".github/workflows/release-publish.yaml",
         "hash": "6640360331687016680"
       },
       {
+        "file": ".nx/version-plans/version-plan-1768412151953.md",
+        "hash": "2853316500885690478"
+      },
+      {
         "file": ".github/workflows/ci.yaml",
         "hash": "2764094993101259470"
+      },
+      {
+        "file": "turbo.json",
+        "hash": "16402890210527540759"
       }
     ],
     "projectFileMap": {

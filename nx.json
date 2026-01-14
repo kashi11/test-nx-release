@@ -26,7 +26,8 @@
     },
     "git": {
       "commit": false,
-      "tag": false
+      "tag": false,
+      "push": false
     },
     "releaseTagPattern": "{projectName}@{version}"
   },
