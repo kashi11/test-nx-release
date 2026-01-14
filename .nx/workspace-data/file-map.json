@@ -21,52 +21,52 @@
   "fileMap": {
     "nonProjectFiles": [
       {
-        "file": ".yarn/install-state.gz",
-        "hash": "3131534999808832374"
-      },
-      {
-        "file": ".github/workflows/release.yaml",
-        "hash": "9752316592678206066"
-      },
-      {
-        "file": "nx.json",
-        "hash": "3213851069693353544"
-      },
-      {
-        "file": "yarn.lock",
-        "hash": "605800910258890355"
-      },
-      {
         "file": ".github/workflows/ci.yaml",
         "hash": "2764094993101259470"
-      },
-      {
-        "file": "README.md",
-        "hash": "602718546537743385"
-      },
-      {
-        "file": "package.json",
-        "hash": "17793493831625804722"
-      },
-      {
-        "file": ".npmrc",
-        "hash": "3244421341483603138"
-      },
-      {
-        "file": "turbo.json",
-        "hash": "16402890210527540759"
-      },
-      {
-        "file": ".yarnrc.yml",
-        "hash": "2886304410880062839"
       },
       {
         "file": ".github/workflows/release-publish.yaml",
         "hash": "6640360331687016680"
       },
       {
+        "file": ".github/workflows/release.yaml",
+        "hash": "9752316592678206066"
+      },
+      {
         "file": ".gitignore",
-        "hash": "11686763406958944468"
+        "hash": "8076772259331523985"
+      },
+      {
+        "file": ".npmrc",
+        "hash": "3244421341483603138"
+      },
+      {
+        "file": ".yarn/install-state.gz",
+        "hash": "3131534999808832374"
+      },
+      {
+        "file": ".yarnrc.yml",
+        "hash": "2886304410880062839"
+      },
+      {
+        "file": "README.md",
+        "hash": "602718546537743385"
+      },
+      {
+        "file": "nx.json",
+        "hash": "6855063941934762025"
+      },
+      {
+        "file": "package.json",
+        "hash": "17793493831625804722"
+      },
+      {
+        "file": "turbo.json",
+        "hash": "16402890210527540759"
+      },
+      {
+        "file": "yarn.lock",
+        "hash": "605800910258890355"
       }
     ],
     "projectFileMap": {
@@ -130,105 +130,26 @@
           ]
         }
       ],
-      "docs": [
+      "@repo/core": [
         {
-          "file": "apps/docs/.gitignore",
-          "hash": "17053635035368931995"
-        },
-        {
-          "file": "apps/docs/README.md",
-          "hash": "1841608540073148912"
-        },
-        {
-          "file": "apps/docs/app/favicon.ico",
-          "hash": "9157999678830540297"
-        },
-        {
-          "file": "apps/docs/app/fonts/GeistMonoVF.woff",
-          "hash": "17799230542345324615"
-        },
-        {
-          "file": "apps/docs/app/fonts/GeistVF.woff",
-          "hash": "6578897518916770501"
-        },
-        {
-          "file": "apps/docs/app/globals.css",
-          "hash": "18293205821686026017"
-        },
-        {
-          "file": "apps/docs/app/layout.tsx",
-          "hash": "4529673636012425356",
+          "file": "packages/core/package.json",
+          "hash": "16876522393568718527",
           "deps": [
-            "npm:next"
+            "npm:tsup",
+            "npm:typescript@5.9.3"
           ]
         },
         {
-          "file": "apps/docs/app/page.module.css",
-          "hash": "17272264164516448302"
+          "file": "packages/core/src/index.ts",
+          "hash": "9921210865718368831"
         },
         {
-          "file": "apps/docs/app/page.tsx",
-          "hash": "10818913231982541219",
-          "deps": [
-            "npm:next"
-          ]
+          "file": "packages/core/tsconfig.json",
+          "hash": "775826979271608419"
         },
         {
-          "file": "apps/docs/eslint.config.js",
-          "hash": "2263959356359967658"
-        },
-        {
-          "file": "apps/docs/next.config.js",
-          "hash": "6567081978241091914"
-        },
-        {
-          "file": "apps/docs/package.json",
-          "hash": "10528975058187631716",
-          "deps": [
-            "@repo/eslint-config",
-            "@repo/typescript-config",
-            "npm:@types/node",
-            "npm:@types/react",
-            "npm:@types/react-dom",
-            "npm:eslint",
-            "npm:typescript",
-            "@repo/ui",
-            "npm:next",
-            "npm:react",
-            "npm:react-dom"
-          ]
-        },
-        {
-          "file": "apps/docs/public/file-text.svg",
-          "hash": "17760084710797261418"
-        },
-        {
-          "file": "apps/docs/public/globe.svg",
-          "hash": "110250140041414884"
-        },
-        {
-          "file": "apps/docs/public/next.svg",
-          "hash": "8300767200008744458"
-        },
-        {
-          "file": "apps/docs/public/turborepo-dark.svg",
-          "hash": "5280435613635272558"
-        },
-        {
-          "file": "apps/docs/public/turborepo-light.svg",
-          "hash": "9618029098646958442"
-        },
-        {
-          "file": "apps/docs/public/vercel.svg",
-          "hash": "6508004213753618803"
-        },
-        {
-          "file": "apps/docs/public/window.svg",
-          "hash": "7242562813461725307"
-        },
-        {
-          "file": "apps/docs/tsconfig.json",
-          "hash": "15544717613430809260"
+          "file": "packages/core/tsconfig.lib.json",
+          "hash": "15803003697183376531"
         }
       ],
       "@repo/ui": [
@@ -275,6 +196,28 @@
         {
           "file": "packages/ui/tsconfig.json",
           "hash": "701843663225452563"
+        }
+      ],
+      "@repo/utils": [
+        {
+          "file": "packages/utils/package.json",
+          "hash": "4001906662193282474",
+          "deps": [
+            "npm:tsup",
+            "npm:typescript@5.9.3"
+          ]
+        },
+        {
+          "file": "packages/utils/src/index.ts",
+          "hash": "16645212785234869981"
+        },
+        {
+          "file": "packages/utils/tsconfig.json",
+          "hash": "775826979271608419"
+        },
+        {
+          "file": "packages/utils/tsconfig.lib.json",
+          "hash": "15803003697183376531"
         }
       ],
       "@repo/typescript-config": [
@@ -396,48 +339,105 @@
           "hash": "15544717613430809260"
         }
       ],
-      "@repo/core": [
+      "docs": [
         {
-          "file": "packages/core/package.json",
-          "hash": "16876522393568718527",
+          "file": "apps/docs/.gitignore",
+          "hash": "17053635035368931995"
+        },
+        {
+          "file": "apps/docs/README.md",
+          "hash": "1841608540073148912"
+        },
+        {
+          "file": "apps/docs/app/favicon.ico",
+          "hash": "9157999678830540297"
+        },
+        {
+          "file": "apps/docs/app/fonts/GeistMonoVF.woff",
+          "hash": "17799230542345324615"
+        },
+        {
+          "file": "apps/docs/app/fonts/GeistVF.woff",
+          "hash": "6578897518916770501"
+        },
+        {
+          "file": "apps/docs/app/globals.css",
+          "hash": "18293205821686026017"
+        },
+        {
+          "file": "apps/docs/app/layout.tsx",
+          "hash": "4529673636012425356",
           "deps": [
-            "npm:tsup",
-            "npm:typescript@5.9.3"
+            "npm:next"
           ]
         },
         {
-          "file": "packages/core/src/index.ts",
-          "hash": "9921210865718368831"
+          "file": "apps/docs/app/page.module.css",
+          "hash": "17272264164516448302"
         },
         {
-          "file": "packages/core/tsconfig.json",
-          "hash": "775826979271608419"
-        },
-        {
-          "file": "packages/core/tsconfig.lib.json",
-          "hash": "15803003697183376531"
-        }
-      ],
-      "@repo/utils": [
-        {
-          "file": "packages/utils/package.json",
-          "hash": "4001906662193282474",
+          "file": "apps/docs/app/page.tsx",
+          "hash": "10818913231982541219",
           "deps": [
-            "npm:tsup",
-            "npm:typescript@5.9.3"
+            "npm:next"
           ]
         },
         {
-          "file": "packages/utils/src/index.ts",
-          "hash": "11678939097523716393"
+          "file": "apps/docs/eslint.config.js",
+          "hash": "2263959356359967658"
         },
         {
-          "file": "packages/utils/tsconfig.json",
-          "hash": "775826979271608419"
+          "file": "apps/docs/next.config.js",
+          "hash": "6567081978241091914"
         },
         {
-          "file": "packages/utils/tsconfig.lib.json",
-          "hash": "15803003697183376531"
+          "file": "apps/docs/package.json",
+          "hash": "10528975058187631716",
+          "deps": [
+            "@repo/eslint-config",
+            "@repo/typescript-config",
+            "npm:@types/node",
+            "npm:@types/react",
+            "npm:@types/react-dom",
+            "npm:eslint",
+            "npm:typescript",
+            "@repo/ui",
+            "npm:next",
+            "npm:react",
+            "npm:react-dom"
+          ]
+        },
+        {
+          "file": "apps/docs/public/file-text.svg",
+          "hash": "17760084710797261418"
+        },
+        {
+          "file": "apps/docs/public/globe.svg",
+          "hash": "110250140041414884"
+        },
+        {
+          "file": "apps/docs/public/next.svg",
+          "hash": "8300767200008744458"
+        },
+        {
+          "file": "apps/docs/public/turborepo-dark.svg",
+          "hash": "5280435613635272558"
+        },
+        {
+          "file": "apps/docs/public/turborepo-light.svg",
+          "hash": "9618029098646958442"
+        },
+        {
+          "file": "apps/docs/public/vercel.svg",
+          "hash": "6508004213753618803"
+        },
+        {
+          "file": "apps/docs/public/window.svg",
+          "hash": "7242562813461725307"
+        },
+        {
+          "file": "apps/docs/tsconfig.json",
+          "hash": "15544717613430809260"
         }
       ]
     }
