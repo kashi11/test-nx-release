@@ -87,8 +87,7 @@ jobs:
             PREID_ARG="--preid=${{ inputs.preid }}"
           fi
 
-          npx nx release version $PREID_ARG
-          npx nx release changelog
+          npx nx release $PREID_ARG --skip-publish
 
           yarn install
 
