@@ -1044,9 +1044,9 @@
         "hash": "9202973927551792507"
       }
     },
-    "npm:@esbuild/linux-x64@0.27.2": {
+    "npm:@esbuild/linux-x64": {
       "type": "npm",
-      "name": "npm:@esbuild/linux-x64@0.27.2",
+      "name": "npm:@esbuild/linux-x64",
       "data": {
         "version": "0.27.2",
         "packageName": "@esbuild/linux-x64",
@@ -1125,9 +1125,9 @@
         "hash": "18161577046834270986"
       }
     },
-    "npm:@esbuild/win32-x64": {
+    "npm:@esbuild/win32-x64@0.27.2": {
       "type": "npm",
-      "name": "npm:@esbuild/win32-x64",
+      "name": "npm:@esbuild/win32-x64@0.27.2",
       "data": {
         "version": "0.27.2",
         "packageName": "@esbuild/win32-x64",
@@ -1341,9 +1341,9 @@
         "hash": "15676246611413117812"
       }
     },
-    "npm:@img/sharp-libvips-linux-x64@1.2.4": {
+    "npm:@img/sharp-libvips-linux-x64": {
       "type": "npm",
-      "name": "npm:@img/sharp-libvips-linux-x64@1.2.4",
+      "name": "npm:@img/sharp-libvips-linux-x64",
       "data": {
         "version": "1.2.4",
         "packageName": "@img/sharp-libvips-linux-x64",
@@ -1413,9 +1413,9 @@
         "hash": "16655451429851265206"
       }
     },
-    "npm:@img/sharp-linux-x64@0.34.5": {
+    "npm:@img/sharp-linux-x64": {
       "type": "npm",
-      "name": "npm:@img/sharp-linux-x64@0.34.5",
+      "name": "npm:@img/sharp-linux-x64",
       "data": {
         "version": "0.34.5",
         "packageName": "@img/sharp-linux-x64",
@@ -1467,9 +1467,9 @@
         "hash": "16989617729971479785"
       }
     },
-    "npm:@img/sharp-win32-x64": {
+    "npm:@img/sharp-win32-x64@0.34.5": {
       "type": "npm",
-      "name": "npm:@img/sharp-win32-x64",
+      "name": "npm:@img/sharp-win32-x64@0.34.5",
       "data": {
         "version": "0.34.5",
         "packageName": "@img/sharp-win32-x64",
@@ -1620,9 +1620,9 @@
         "hash": "12919793844187130908"
       }
     },
-    "npm:@next/swc-linux-x64-gnu@16.1.0": {
+    "npm:@next/swc-linux-x64-gnu": {
       "type": "npm",
-      "name": "npm:@next/swc-linux-x64-gnu@16.1.0",
+      "name": "npm:@next/swc-linux-x64-gnu",
       "data": {
         "version": "16.1.0",
         "packageName": "@next/swc-linux-x64-gnu",
@@ -1647,9 +1647,9 @@
         "hash": "2711440822655857487"
       }
     },
-    "npm:@next/swc-win32-x64-msvc": {
+    "npm:@next/swc-win32-x64-msvc@16.1.0": {
       "type": "npm",
-      "name": "npm:@next/swc-win32-x64-msvc",
+      "name": "npm:@next/swc-win32-x64-msvc@16.1.0",
       "data": {
         "version": "16.1.0",
         "packageName": "@next/swc-win32-x64-msvc",
@@ -1827,9 +1827,9 @@
         "hash": "3101685044233559961"
       }
     },
-    "npm:@nx/nx-linux-x64-gnu@20.8.3": {
+    "npm:@nx/nx-linux-x64-gnu": {
       "type": "npm",
-      "name": "npm:@nx/nx-linux-x64-gnu@20.8.3",
+      "name": "npm:@nx/nx-linux-x64-gnu",
       "data": {
         "version": "20.8.3",
         "packageName": "@nx/nx-linux-x64-gnu",
@@ -1881,9 +1881,9 @@
         "hash": "9257253809558144517"
       }
     },
-    "npm:@nx/nx-win32-x64-msvc": {
+    "npm:@nx/nx-win32-x64-msvc@20.8.3": {
       "type": "npm",
-      "name": "npm:@nx/nx-win32-x64-msvc",
+      "name": "npm:@nx/nx-win32-x64-msvc@20.8.3",
       "data": {
         "version": "20.8.3",
         "packageName": "@nx/nx-win32-x64-msvc",
@@ -2061,9 +2061,9 @@
         "hash": "12804837905914849303"
       }
     },
-    "npm:@rollup/rollup-linux-x64-gnu@4.55.1": {
+    "npm:@rollup/rollup-linux-x64-gnu": {
       "type": "npm",
-      "name": "npm:@rollup/rollup-linux-x64-gnu@4.55.1",
+      "name": "npm:@rollup/rollup-linux-x64-gnu",
       "data": {
         "version": "4.55.1",
         "packageName": "@rollup/rollup-linux-x64-gnu",
@@ -2115,18 +2115,18 @@
         "hash": "9664804731745707536"
       }
     },
-    "npm:@rollup/rollup-win32-x64-gnu": {
+    "npm:@rollup/rollup-win32-x64-gnu@4.55.1": {
       "type": "npm",
-      "name": "npm:@rollup/rollup-win32-x64-gnu",
+      "name": "npm:@rollup/rollup-win32-x64-gnu@4.55.1",
       "data": {
         "version": "4.55.1",
         "packageName": "@rollup/rollup-win32-x64-gnu",
         "hash": "10118525233704627083"
       }
     },
-    "npm:@rollup/rollup-win32-x64-msvc": {
+    "npm:@rollup/rollup-win32-x64-msvc@4.55.1": {
       "type": "npm",
-      "name": "npm:@rollup/rollup-win32-x64-msvc",
+      "name": "npm:@rollup/rollup-win32-x64-msvc@4.55.1",
       "data": {
         "version": "4.55.1",
         "packageName": "@rollup/rollup-win32-x64-msvc",
@@ -6057,9 +6057,9 @@
         "hash": "2506576196885210330"
       }
     },
-    "npm:turbo-linux-64@2.7.4": {
+    "npm:turbo-linux-64": {
       "type": "npm",
-      "name": "npm:turbo-linux-64@2.7.4",
+      "name": "npm:turbo-linux-64",
       "data": {
         "version": "2.7.4",
         "packageName": "turbo-linux-64",
@@ -6075,9 +6075,9 @@
         "hash": "10642594833920500326"
       }
     },
-    "npm:turbo-windows-64": {
+    "npm:turbo-windows-64@2.7.4": {
       "type": "npm",
-      "name": "npm:turbo-windows-64",
+      "name": "npm:turbo-windows-64@2.7.4",
       "data": {
         "version": "2.7.4",
         "packageName": "turbo-windows-64",
@@ -8345,8 +8345,8 @@
       "type": "static"
     },
     {
-      "source": "npm:@img/sharp-linux-x64@0.34.5",
-      "target": "npm:@img/sharp-libvips-linux-x64@1.2.4",
+      "source": "npm:@img/sharp-linux-x64",
+      "target": "npm:@img/sharp-libvips-linux-x64",
       "type": "static"
     },
     {
@@ -12276,7 +12276,7 @@
     },
     {
       "source": "npm:esbuild",
-      "target": "npm:@esbuild/linux-x64@0.27.2",
+      "target": "npm:@esbuild/linux-x64",
       "type": "static"
     },
     {
@@ -12321,7 +12321,7 @@
     },
     {
       "source": "npm:esbuild",
-      "target": "npm:@esbuild/win32-x64",
+      "target": "npm:@esbuild/win32-x64@0.27.2",
       "type": "static"
     },
     {
@@ -13966,7 +13966,7 @@
     },
     {
       "source": "npm:next",
-      "target": "npm:@next/swc-linux-x64-gnu@16.1.0",
+      "target": "npm:@next/swc-linux-x64-gnu",
       "type": "static"
     },
     {
@@ -13981,7 +13981,7 @@
     },
     {
       "source": "npm:next",
-      "target": "npm:@next/swc-win32-x64-msvc",
+      "target": "npm:@next/swc-win32-x64-msvc@16.1.0",
       "type": "static"
     },
     {
@@ -14131,7 +14131,7 @@
     },
     {
       "source": "npm:nx@20.8.3",
-      "target": "npm:@nx/nx-linux-x64-gnu@20.8.3",
+      "target": "npm:@nx/nx-linux-x64-gnu",
       "type": "static"
     },
     {
@@ -14146,7 +14146,7 @@
     },
     {
       "source": "npm:nx@20.8.3",
-      "target": "npm:@nx/nx-win32-x64-msvc",
+      "target": "npm:@nx/nx-win32-x64-msvc@20.8.3",
       "type": "static"
     },
     {
@@ -15261,7 +15261,7 @@
     },
     {
       "source": "npm:rollup",
-      "target": "npm:@rollup/rollup-linux-x64-gnu@4.55.1",
+      "target": "npm:@rollup/rollup-linux-x64-gnu",
       "type": "static"
     },
     {
@@ -15291,12 +15291,12 @@
     },
     {
       "source": "npm:rollup",
-      "target": "npm:@rollup/rollup-win32-x64-gnu",
+      "target": "npm:@rollup/rollup-win32-x64-gnu@4.55.1",
       "type": "static"
     },
     {
       "source": "npm:rollup",
-      "target": "npm:@rollup/rollup-win32-x64-msvc",
+      "target": "npm:@rollup/rollup-win32-x64-msvc@4.55.1",
       "type": "static"
     },
     {
@@ -15481,7 +15481,7 @@
     },
     {
       "source": "npm:sharp",
-      "target": "npm:@img/sharp-libvips-linux-x64@1.2.4",
+      "target": "npm:@img/sharp-libvips-linux-x64",
       "type": "static"
     },
     {
@@ -15521,7 +15521,7 @@
     },
     {
       "source": "npm:sharp",
-      "target": "npm:@img/sharp-linux-x64@0.34.5",
+      "target": "npm:@img/sharp-linux-x64",
       "type": "static"
     },
     {
@@ -15551,7 +15551,7 @@
     },
     {
       "source": "npm:sharp",
-      "target": "npm:@img/sharp-win32-x64",
+      "target": "npm:@img/sharp-win32-x64@0.34.5",
       "type": "static"
     },
     {
@@ -16241,7 +16241,7 @@
     },
     {
       "source": "npm:turbo",
-      "target": "npm:turbo-linux-64@2.7.4",
+      "target": "npm:turbo-linux-64",
       "type": "static"
     },
     {
@@ -16251,7 +16251,7 @@
     },
     {
       "source": "npm:turbo",
-      "target": "npm:turbo-windows-64",
+      "target": "npm:turbo-windows-64@2.7.4",
       "type": "static"
     },
     {
