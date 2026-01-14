@@ -1,5 +1,5 @@
 {
-  "name": "@repo/utils",
+  "name": "@test-k/utils",
   "version": "0.1.0",
   "description": "Utility functions for the monorepo",
   "main": "./dist/index.js",

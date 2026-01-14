@@ -1,5 +1,5 @@
 {
-  "name": "@repo/core",
+  "name": "@test-k/core",
   "version": "0.0.1",
   "description": "Core library for the monorepo",
   "main": "./dist/index.js",
