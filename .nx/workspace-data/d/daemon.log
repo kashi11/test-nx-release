@@ -327,3 +327,15 @@
 [NX v20.8.4 Daemon Server] - 2026-01-14T17:57:45.574Z - Time taken for 'total execution time for createProjectGraph()' 13.81499999994412ms
 [NX v20.8.4 Daemon Server] - 2026-01-14T17:57:51.978Z - [SYNC]: running scheduled generator @nx/js:typescript-sync
 [NX v20.8.4 Daemon Server] - 2026-01-14T17:57:51.980Z - [SYNC]: @nx/js:typescript-sync error: Missing root "tsconfig.json"
+[NX v20.8.4 Daemon Server] - 2026-01-15T10:52:14.068Z - Started listening on: \\.\pipe\nx\C:\Users\AB\AppData\Local\Temp\b8056674a7ff03746438\d.sock
+[NX v20.8.4 Daemon Server] - 2026-01-15T10:52:14.072Z - [WATCHER]: Subscribed to changes within: D:\test\nx-release-test (native)
+[NX v20.8.4 Daemon Server] - 2026-01-15T10:52:14.075Z - Established a connection. Number of open connections: 1
+[NX v20.8.4 Daemon Server] - 2026-01-15T10:52:14.077Z - Closed a connection. Number of open connections: 0
+[NX v20.8.4 Daemon Server] - 2026-01-15T10:52:14.077Z - Established a connection. Number of open connections: 1
+[NX v20.8.4 Daemon Server] - 2026-01-15T10:52:14.078Z - [REQUEST]: Responding to the client. Shutdown initiated
+[NX v20.8.4 Daemon Server] - 2026-01-15T10:52:14.079Z - Done responding to the client Shutdown initiated
+[NX v20.8.4 Daemon Server] - 2026-01-15T10:52:14.080Z - Handled FORCE_SHUTDOWN. Handling time: 0. Response time: 2.
+[NX v20.8.4 Daemon Server] - 2026-01-15T10:52:14.080Z - Closed a connection. Number of open connections: 0
+[NX v20.8.4 Daemon Server] - 2026-01-15T10:52:14.080Z - [WATCHER]: Stopping the watcher for D:\test\nx-release-test (sources)
+[NX v20.8.4 Daemon Server] - 2026-01-15T10:52:14.081Z - [WATCHER]: Stopping the watcher for D:\test\nx-release-test (outputs)
+[NX v20.8.4 Daemon Server] - 2026-01-15T10:52:14.081Z - Server stopped because: "Request to shutdown"

@@ -19,119 +19,45 @@
     }
   ],
   "fileMap": {
-    "nonProjectFiles": [
-      {
-        "file": "nx.json",
-        "hash": "5765339465868405630"
-      },
-      {
-        "file": "package.json",
-        "hash": "17793493831625804722"
-      },
-      {
-        "file": ".nx/version-plans/version-plan-1768412151953.md",
-        "hash": "2853316500885690478"
-      },
-      {
-        "file": ".npmrc",
-        "hash": "3244421341483603138"
-      },
-      {
-        "file": ".github/workflows/ci.yaml",
-        "hash": "2764094993101259470"
-      },
-      {
-        "file": ".github/workflows/release-publish.yaml",
-        "hash": "18335906264404291816"
-      },
-      {
-        "file": ".yarnrc.yml",
-        "hash": "2886304410880062839"
-      },
-      {
-        "file": ".github/workflows/release.yaml",
-        "hash": "17260329473418544146"
-      },
-      {
-        "file": "yarn.lock",
-        "hash": "605800910258890355"
-      },
-      {
-        "file": ".gitignore",
-        "hash": "8076772259331523985"
-      },
-      {
-        "file": "turbo.json",
-        "hash": "16402890210527540759"
-      },
-      {
-        "file": "README.md",
-        "hash": "602718546537743385"
-      },
-      {
-        "file": ".yarn/install-state.gz",
-        "hash": "17656495602940639554"
-      }
-    ],
     "projectFileMap": {
-      "@repo/eslint-config": [
+      "@test-k/core": [
         {
-          "file": "packages/eslint-config/README.md",
-          "hash": "13754227653957484045"
-        },
-        {
-          "file": "packages/eslint-config/base.js",
-          "hash": "13415738514823582499",
+          "file": "packages/core/package.json",
+          "hash": "17489789542065299647",
           "deps": [
-            "npm:@eslint/js",
-            "npm:eslint-config-prettier",
-            "npm:eslint-plugin-turbo",
-            "npm:typescript-eslint@8.53.0",
-            "npm:eslint-plugin-only-warn"
+            "npm:tsup",
+            "npm:typescript@5.9.3"
           ]
         },
         {
-          "file": "packages/eslint-config/next.js",
-          "hash": "14252493761496035585",
-          "deps": [
-            "npm:@eslint/js",
-            "npm:eslint",
-            "npm:eslint-config-prettier",
-            "npm:typescript-eslint@8.53.0",
-            "npm:eslint-plugin-react-hooks",
-            "npm:eslint-plugin-react",
-            "npm:globals",
-            "npm:@next/eslint-plugin-next"
-          ]
+          "file": "packages/core/src/index.ts",
+          "hash": "9921210865718368831"
         },
         {
-          "file": "packages/eslint-config/package.json",
-          "hash": "15584607054065271924",
-          "deps": [
-            "npm:@eslint/js",
-            "npm:@next/eslint-plugin-next",
-            "npm:eslint",
-            "npm:eslint-config-prettier",
-            "npm:eslint-plugin-only-warn",
-            "npm:eslint-plugin-react",
-            "npm:eslint-plugin-react-hooks",
-            "npm:eslint-plugin-turbo",
-            "npm:globals",
-            "npm:typescript@5.9.3",
-            "npm:typescript-eslint@8.53.0"
-          ]
+          "file": "packages/core/tsconfig.json",
+          "hash": "775826979271608419"
         },
         {
-          "file": "packages/eslint-config/react-internal.js",
-          "hash": "3207875352665207252",
-          "deps": [
-            "npm:@eslint/js",
-            "npm:eslint-config-prettier",
-            "npm:typescript-eslint@8.53.0",
-            "npm:eslint-plugin-react-hooks",
-            "npm:eslint-plugin-react",
-            "npm:globals"
-          ]
+          "file": "packages/core/tsconfig.lib.json",
+          "hash": "15803003697183376531"
+        }
+      ],
+      "@repo/typescript-config": [
+        {
+          "file": "packages/typescript-config/base.json",
+          "hash": "16582354637600534236"
+        },
+        {
+          "file": "packages/typescript-config/nextjs.json",
+          "hash": "5420817179880079656"
+        },
+        {
+          "file": "packages/typescript-config/package.json",
+          "hash": "471180667494266307"
+        },
+        {
+          "file": "packages/typescript-config/react-library.json",
+          "hash": "15305099616913920141"
         }
       ],
       "docs": [
@@ -235,30 +161,50 @@
           "hash": "15544717613430809260"
         }
       ],
-      "@test-k/utils": [
+      "@repo/ui": [
         {
-          "file": "packages/utils/CHANGELOG.md",
-          "hash": "2165771034486578880"
+          "file": "packages/ui/eslint.config.mjs",
+          "hash": "5418178612699070611"
         },
         {
-          "file": "packages/utils/package.json",
-          "hash": "6272325826681877765",
+          "file": "packages/ui/package.json",
+          "hash": "11427093995971714794",
           "deps": [
-            "npm:tsup",
-            "npm:typescript@5.9.3"
+            "@repo/eslint-config",
+            "@repo/typescript-config",
+            "npm:@types/node",
+            "npm:@types/react",
+            "npm:@types/react-dom",
+            "npm:eslint",
+            "npm:typescript",
+            "npm:react",
+            "npm:react-dom"
           ]
         },
         {
-          "file": "packages/utils/src/index.ts",
-          "hash": "16645212785234869981"
+          "file": "packages/ui/src/button.tsx",
+          "hash": "2754452512218986212",
+          "deps": [
+            "npm:react"
+          ]
         },
         {
-          "file": "packages/utils/tsconfig.json",
-          "hash": "775826979271608419"
+          "file": "packages/ui/src/card.tsx",
+          "hash": "10612423921115029066",
+          "deps": [
+            "npm:react"
+          ]
         },
         {
-          "file": "packages/utils/tsconfig.lib.json",
-          "hash": "15803003697183376531"
+          "file": "packages/ui/src/code.tsx",
+          "hash": "12784955322640527990",
+          "deps": [
+            "npm:react"
+          ]
+        },
+        {
+          "file": "packages/ui/tsconfig.json",
+          "hash": "701843663225452563"
         }
       ],
       "web": [
@@ -362,92 +308,142 @@
           "hash": "15544717613430809260"
         }
       ],
-      "@repo/typescript-config": [
+      "@test-k/utils": [
         {
-          "file": "packages/typescript-config/base.json",
-          "hash": "16582354637600534236"
+          "file": "packages/utils/CHANGELOG.md",
+          "hash": "2165771034486578880"
         },
         {
-          "file": "packages/typescript-config/nextjs.json",
-          "hash": "5420817179880079656"
-        },
-        {
-          "file": "packages/typescript-config/package.json",
-          "hash": "471180667494266307"
-        },
-        {
-          "file": "packages/typescript-config/react-library.json",
-          "hash": "15305099616913920141"
-        }
-      ],
-      "@test-k/core": [
-        {
-          "file": "packages/core/package.json",
-          "hash": "17489789542065299647",
+          "file": "packages/utils/package.json",
+          "hash": "6272325826681877765",
           "deps": [
             "npm:tsup",
             "npm:typescript@5.9.3"
           ]
         },
         {
-          "file": "packages/core/src/index.ts",
-          "hash": "9921210865718368831"
+          "file": "packages/utils/src/index.ts",
+          "hash": "16645212785234869981"
         },
         {
-          "file": "packages/core/tsconfig.json",
+          "file": "packages/utils/tsconfig.json",
           "hash": "775826979271608419"
         },
         {
-          "file": "packages/core/tsconfig.lib.json",
+          "file": "packages/utils/tsconfig.lib.json",
           "hash": "15803003697183376531"
         }
       ],
-      "@repo/ui": [
+      "@repo/eslint-config": [
         {
-          "file": "packages/ui/eslint.config.mjs",
-          "hash": "5418178612699070611"
+          "file": "packages/eslint-config/README.md",
+          "hash": "13754227653957484045"
         },
         {
-          "file": "packages/ui/package.json",
-          "hash": "11427093995971714794",
+          "file": "packages/eslint-config/base.js",
+          "hash": "13415738514823582499",
           "deps": [
-            "@repo/eslint-config",
-            "@repo/typescript-config",
-            "npm:@types/node",
-            "npm:@types/react",
-            "npm:@types/react-dom",
+            "npm:@eslint/js",
+            "npm:eslint-config-prettier",
+            "npm:eslint-plugin-turbo",
+            "npm:typescript-eslint@8.53.0",
+            "npm:eslint-plugin-only-warn"
+          ]
+        },
+        {
+          "file": "packages/eslint-config/next.js",
+          "hash": "14252493761496035585",
+          "deps": [
+            "npm:@eslint/js",
             "npm:eslint",
-            "npm:typescript",
-            "npm:react",
-            "npm:react-dom"
+            "npm:eslint-config-prettier",
+            "npm:typescript-eslint@8.53.0",
+            "npm:eslint-plugin-react-hooks",
+            "npm:eslint-plugin-react",
+            "npm:globals",
+            "npm:@next/eslint-plugin-next"
           ]
         },
         {
-          "file": "packages/ui/src/button.tsx",
-          "hash": "2754452512218986212",
+          "file": "packages/eslint-config/package.json",
+          "hash": "15584607054065271924",
           "deps": [
-            "npm:react"
+            "npm:@eslint/js",
+            "npm:@next/eslint-plugin-next",
+            "npm:eslint",
+            "npm:eslint-config-prettier",
+            "npm:eslint-plugin-only-warn",
+            "npm:eslint-plugin-react",
+            "npm:eslint-plugin-react-hooks",
+            "npm:eslint-plugin-turbo",
+            "npm:globals",
+            "npm:typescript@5.9.3",
+            "npm:typescript-eslint@8.53.0"
           ]
         },
         {
-          "file": "packages/ui/src/card.tsx",
-          "hash": "10612423921115029066",
+          "file": "packages/eslint-config/react-internal.js",
+          "hash": "3207875352665207252",
           "deps": [
-            "npm:react"
+            "npm:@eslint/js",
+            "npm:eslint-config-prettier",
+            "npm:typescript-eslint@8.53.0",
+            "npm:eslint-plugin-react-hooks",
+            "npm:eslint-plugin-react",
+            "npm:globals"
           ]
-        },
-        {
-          "file": "packages/ui/src/code.tsx",
-          "hash": "12784955322640527990",
-          "deps": [
-            "npm:react"
-          ]
-        },
-        {
-          "file": "packages/ui/tsconfig.json",
-          "hash": "701843663225452563"
         }
       ]
-    }
+    },
+    "nonProjectFiles": [
+      {
+        "file": ".github/workflows/ci.yaml",
+        "hash": "2764094993101259470"
+      },
+      {
+        "file": ".github/workflows/release-publish.yaml",
+        "hash": "18335906264404291816"
+      },
+      {
+        "file": ".github/workflows/release.yaml",
+        "hash": "17260329473418544146"
+      },
+      {
+        "file": ".gitignore",
+        "hash": "8076772259331523985"
+      },
+      {
+        "file": ".npmrc",
+        "hash": "3244421341483603138"
+      },
+      {
+        "file": ".yarn/install-state.gz",
+        "hash": "11021392192641934563"
+      },
+      {
+        "file": ".yarnrc.yml",
+        "hash": "2886304410880062839"
+      },
+      {
+        "file": "README.md",
+        "hash": "602718546537743385"
+      },
+      {
+        "file": "nx.json",
+        "hash": "5765339465868405630"
+      },
+      {
+        "file": "package.json",
+        "hash": "17793493831625804722"
+      },
+      {
+        "file": "turbo.json",
+        "hash": "16402890210527540759"
+      },
+      {
+        "file": "yarn.lock",
+        "hash": "12720634059471888938"
+      }
+    ]
   }
 }

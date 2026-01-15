@@ -314,20 +314,7 @@
             },
             "cache": true,
             "inputs": [
-              "{projectRoot}/package.json",
-              "{workspaceRoot}/packages/typescript-config/react-library.json",
-              "{workspaceRoot}/packages/typescript-config/base.json",
-              "{projectRoot}/tsconfig.json",
-              "{projectRoot}/src/**/*.ts",
-              "{projectRoot}/src/**/*.tsx",
-              "{projectRoot}/src/**/*.d.ts",
-              "{projectRoot}/src/**/*.cts",
-              "{projectRoot}/src/**/*.d.cts",
-              "{projectRoot}/src/**/*.mts",
-              "{projectRoot}/src/**/*.d.mts",
-              "{projectRoot}/src/**/*.json",
-              "!{projectRoot}/node_modules",
-              "!{projectRoot}/dist",
+              "default",
               "^default",
               {
                 "externalDependencies": [
@@ -337,7 +324,6 @@
             ],
             "outputs": [
               "{projectRoot}/dist/**/*.d.ts",
-              "{projectRoot}/dist/**/*.d.ts.map",
               "{projectRoot}/dist/tsconfig.tsbuildinfo"
             ],
             "syncGenerators": [
@@ -15055,5 +15041,5 @@
   },
   "version": "6.0",
   "errors": [],
-  "computedAt": 1768414458302
+  "computedAt": 1768474335123
 }
