@@ -63,6 +63,34 @@ jobs:
           NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
 
       - name: Create GitHub Releases
-        run: npx nx release changelog
+        run: |
+          for pkg_json in packages/*/package.json; do
+            pkg_name=$(jq -r '.name' "$pkg_json")
+            pkg_version=$(jq -r '.version' "$pkg_json")
+            is_private=$(jq -r '.private // false' "$pkg_json")
+            pkg_dir=$(dirname "$pkg_json")
+
+            # Skip private packages
+            [ "$is_private" = "true" ] && continue
+
+            tag="${pkg_name}@${pkg_version}"
+
+            # Check if release already exists
+            if gh release view "$tag" &>/dev/null; then
+              echo "Release $tag already exists, skipping"
+              continue
+            fi
+
+            # Get changelog content if it exists
+            changelog_file="$pkg_dir/CHANGELOG.md"
+            if [ -f "$changelog_file" ]; then
+              notes=$(awk '/^## '"$pkg_version"'/{flag=1; next} /^## [0-9]/{flag=0} flag' "$changelog_file")
+            else
+              notes="Release ${pkg_name}@${pkg_version}"
+            fi
+
+            echo "Creating release: $tag"
+            gh release create "$tag" --title "$tag" --notes "$notes"
+          done
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}

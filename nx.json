@@ -16,8 +16,7 @@
     "projectsRelationship": "independent",
     "changelog": {
       "projectChangelogs": {
-        "file": "{projectRoot}/CHANGELOG.md",
-        "createRelease": "github"
+        "file": "{projectRoot}/CHANGELOG.md"
       },
       "workspaceChangelog": false
     },
@@ -27,7 +26,7 @@
     "git": {
       "commit": false,
       "tag": false,
-      "push": true
+      "push": false
     },
     "releaseTagPattern": "{projectName}@{version}"
   },
