@@ -58,7 +58,7 @@ jobs:
           git push --tags
 
       - name: Publish to npm
-        run: npx nx release publish
+        run: npx nx release publish --verbose
         env:
           NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
           NPM_CONFIG_PROVENANCE: true
