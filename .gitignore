@@ -19,7 +19,8 @@ coverage
 .turbo
 
 # Nx
-.nx
+.nx/cache
+.nx/workspace-data
 
 # Vercel
 .vercel
