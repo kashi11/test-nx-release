@@ -61,7 +61,6 @@ jobs:
         run: npx nx release publish --verbose
         env:
           NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
-          NPM_CONFIG_PROVENANCE: true
 
       - name: Create GitHub Releases
         run: |
