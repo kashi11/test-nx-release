@@ -63,6 +63,6 @@ jobs:
           NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
 
       - name: Create GitHub Releases
-        run: npx nx release changelog --create-release=github
+        run: npx nx release changelog
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

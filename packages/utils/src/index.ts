@@ -26,5 +26,6 @@ export function isEmpty(value: unknown): boolean {
   return false;
 }
 
+// comment
 
 export const VERSION = "0.0.1";
