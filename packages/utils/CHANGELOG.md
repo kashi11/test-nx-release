@@ -1,3 +1,13 @@
+# 2.0.0 (2026-01-15)
+
+### ⚠️  Breaking Changes
+
+- test ([23d0637](https://github.com/kashi11/test-nx-release/commit/23d0637))
+
+### ❤️ Thank You
+
+- Kashif Ali
+
 # 1.0.0 (2026-01-15)
 
 ### ⚠️  Breaking Changes
