@@ -19,7 +19,7 @@ coverage
 .turbo
 
 # Nx
-.nx/cache
+.nx
 
 # Vercel
 .vercel
